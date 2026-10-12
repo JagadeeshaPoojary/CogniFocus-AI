@@ -1,0 +1,12 @@
+{
+  "camera_id": "CAM001",
+  "camera_source": "0",
+  "confidence": 0.5,
+  "alert_time": 5,
+  "alert_cooldown": 30,
+  "dashboard_width": 400,
+  "beep_frequency": 1000,
+  "beep_duration": 500,
+  "model_type": "yolov8n-pose.pt",
+  "simulation_mode": false
+}

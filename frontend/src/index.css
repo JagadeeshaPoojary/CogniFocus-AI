@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100 font-sans;
+  }
+}
+
+@layer components {
+  .alert-actions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+  }
+
+  .acknowledge-btn {
+    height: 32px;
+    min-width: max-content;
+    padding: 0 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+    border-radius: 7px;
+    font-size: 11px;
+    font-weight: 700;
+    background-color: rgba(245, 158, 11, 0.15);
+    color: #fcd34d;
+    border: 1px solid rgba(245, 158, 11, 0.35);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .acknowledge-btn:hover {
+    background-color: rgba(245, 158, 11, 0.3);
+    border-color: rgba(245, 158, 11, 0.6);
+    color: #ffffff;
+  }
+
+  .resolve-btn {
+    height: 32px;
+    min-width: max-content;
+    padding: 0 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+    border-radius: 7px;
+    font-size: 11px;
+    font-weight: 700;
+    background-color: rgba(16, 185, 129, 0.15);
+    color: #6ee7b7;
+    border: 1px solid rgba(16, 185, 129, 0.35);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .resolve-btn:hover {
+    background-color: rgba(16, 185, 129, 0.3);
+    border-color: rgba(16, 185, 129, 0.6);
+    color: #ffffff;
+  }
+
+  .delete-btn {
+    height: 32px;
+    min-width: max-content;
+    padding: 0 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    flex-shrink: 0;
+    border-radius: 7px;
+    font-size: 11px;
+    font-weight: 700;
+    background-color: rgba(244, 63, 94, 0.15);
+    color: #fca5a5;
+    border: 1px solid rgba(244, 63, 94, 0.35);
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+  }
+
+  .delete-btn:hover {
+    background-color: rgba(244, 63, 94, 0.3);
+    border-color: rgba(244, 63, 94, 0.6);
+    color: #ffffff;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

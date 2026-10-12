@@ -1,0 +1,27 @@
+# SSL certificates and private keys
+*.key
+*.pem
+certs/
+.local-certs/
+frontend/certs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+*.db
+classroom_monitoring.db
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+.env.local
+
+# Scratch files
+scratch/
